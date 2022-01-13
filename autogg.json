@@ -1,46 +1,28 @@
 {
-    "triggers_format": "2",
-    "meta": {
-        "version": "0.0.1",
-        "upload_date": "2021-06-29",
-        "note": "AutoGG support for Hypixel ZH_CN lang - M2bt Studio."
-    },
-    "servers": {
-        "^(?:.+\\.)?hypixel\\.(?:net|io)$": {
-            "gg_triggers": {
-                "triggers": [
-                    "^ +击杀数第一名 - ?\\[?\\w*\\+*\\]? \\w+ - \\d+(?: (Kill|Kills)?)?$",
-                    "^ *第一名(?:Place ?)?(| )(?:-|:)? ?\\[?\\w*\\+*\\]? \\w+(?: : \\d+| - \\d+(?: Points?)?| - \\d+(?: x .)?| \\(\\w+ .{1,6}\\) - \\d+ Kills?|: \\d+:\\d+| - \\d+ (?:Zombie )?(?:Kills?|Blocks? Destroyed)| - \\[LINK\\])?$",
-                    "^ +胜利者 #1（\\d+杀?\\）：\\w+ \\(\\w+\\)|(?::| - )$",
-                    "^ +胜(者|利)(团队|玩家|队伍)?：(防御者|进攻者| 动物|动物| 猎人|猎人|寻找者|躲藏者|玩家|杀手|Red|Blue|RED|BLU)$",
-                    "^ +母体感染数： \\w+ （感染\\d+人?）$",
-                    "^ +杀手：\\w+（\\d+击杀?）$",
-                    "^ +杀手： \\w+ - \\d+ Kills, \\w+ - \\d+ Kills$",
-                    "^ +You survived \\d+ rounds!$",
-                    "^ +(?:极限生存|空岛战争|战桥|相扑|经典|高手|战墙|弓箭|NoDebuff|Blitz|连击|超级战墙|Bow Spleef)(?:决斗|双人模式|组队模式|Duels|Doubles|Teams|Deathmatch|2v2v2v2|3v3v3v3)(组队双人)? ?- \\d+:\\d+$",
-                    "^ +They captured all wools!$",
-                    "^ +游戏结束！$",
-                    "^ +[\\d\\.]+k?/[\\d\\.]+k? \\w+$",
-                    "^ +(?:Criminal|Cop)s won the game!$",
-                    "^ +\\[?\\w*\\+*\\]? \\w+ - \\d+ Final Kills$",
-                    "^ +僵尸末日 - \\d*:?\\d+:\\d+ （第\\d+回合）$",
-                    "^ +. YOUR STATISTICS .$"
-                ],
-                "casual_triggers": [
-                    "^MINOR EVENT! .+ in .+ ended$",
-                    "^DRAGON EGG OVER! Earned [\\d,]+XP [\\d,]g clicking the egg \\d+ times$",
-                    "^GIANT CAKE! Event ended! Cake's gone!$",
-                    "^PIT EVENT ENDED: .+ \\[INFO\\]$",
-                    "^\\[?\\w*\\+*\\]? ?\\w+ caught ?a?n? .+! .*$"
-                ]
-            },
-            "other_patterns": {
-                "antigg": "^(?:.* )?(?:\\[.+] )?\\w{1,16}(?: .+)?: (?:❤|${antigg_strings})$",
-                "anti_karma": "^\\+(?<karma>\\d)+人品值！$"
-            },
-            "other": {
-                "msg": "/ac "
-            }
-        }
-    }
+  "triggers_format": "2",
+  "meta": {
+    "version": "0.0.1",
+    "upload_date": "2022-01-14",
+    "note": "AutoGG support for Hypixel ZH_CN lang - M2bt Studio."
+  },
+  "gg_triggers": {
+    "triggers": [
+      "^ +击杀数第一名 - ?\\[?\\w*\\+*\\]? \\w+ - \\d+(?: (Kill|Kills)?)?$",
+      "^ *第一名(?:Place ?)?(| )(?:-|:)? ?\\[?\\w*\\+*\\]? \\w+(?: : \\d+| - \\d+(?: Points?)?| - \\d+(?: x .)?| \\(\\w+ .{1,6}\\) - \\d+ Kills?|: \\d+:\\d+| - \\d+ (?:Zombie )?(?:Kills?|Blocks? Destroyed)| - \\[LINK\\])?$",
+      "^ +胜利者 #1（\\d+杀?\\）：\\w+ \\(\\w+\\)|(?::| - )$",
+      "^ +胜(者|利)(团队|玩家|队伍)?：(防御者|进攻者| 动物|动物| 猎人|猎人|寻找者|躲藏者|玩家|杀手|Red|Blue|RED|BLU)$",
+      "^ +母体感染数： \\w+ （感染\\d+人?）$",
+      "^ +杀手：\\w+（\\d+击杀?）$",
+      "^ +杀手： \\w+ - \\d+ Kills, \\w+ - \\d+ Kills$",
+      "^ +You survived \\d+ rounds!$",
+      "^ +(?:极限生存|空岛战争|战桥|相扑|经典|高手|战墙|弓箭|NoDebuff|Blitz|连击|超级战墙|Bow Spleef)(?:决斗|双人模式|组队模式|Duels|Doubles|Teams|Deathmatch|2v2v2v2|3v3v3v3)(组队双人)? ?- \\d+:\\d+$",
+      "^ +They captured all wools!$",
+      "^ +游戏结束！$",
+      "^ +[\\d\\.]+k?/[\\d\\.]+k? \\w+$",
+      "^ +(?:Criminal|Cop)s won the game!$",
+      "^ +\\[?\\w*\\+*\\]? \\w+ - \\d+ Final Kills$",
+      "^ +僵尸末日 - \\d*:?\\d+:\\d+ （第\\d+回合）$",
+      "^ +. YOUR STATISTICS .$"
+    ]
+  }
 }
